@@ -1,0 +1,74 @@
+#header {
+    width:100%;
+    text-shadow: 1px 1px 1px grey;
+}
+#black {
+    color:black;
+    text-shadow:1px 1px 1px grey;
+}
+#input {
+    width:25%;
+    border-radius:30px;
+}
+
+.copy_right_footer {
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: indigo;
+    line-height: 3;
+    text-align: center;
+    font-size: 15px;
+    text-shadow: 3px 3px 5px black;
+}
+canvas {
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 10px;
+    margin-top: 30px;
+    animation-name: rainbow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rainbow {
+    0% {
+        box-shadow: 5px 5px 20px lightgreen;
+    }
+
+    12.5% {
+        box-shadow: 5px 5px 20px magenta;
+    }
+
+    25% {
+        box-shadow: 5px 5px 20px yellow;
+    }
+
+    37.5% {
+        box-shadow: 5px 5px 20px rgb(0, 255, 0);
+    }
+
+    50% {
+        box-shadow: 5px 5px 20px rgb(0, 255, 255);
+    }
+
+    62.5% {
+        box-shadow: 5px 5px 20px royalblue;
+    }
+
+    75% {
+        box-shadow: 5px 5px 20px purple;
+    }
+
+    80% {
+        box-shadow: 5px 5px 20px rgb(255, 0, 255);
+    }
+
+    90% {
+        box-shadow: 5px 5px 20px powderblue;
+    }
+
+    100% {
+        box-shadow: 5px 5px 20px red;
+    }
+}
